@@ -1,0 +1,104 @@
+@media (max-width: 1000px) {
+    .section1{
+        flex-direction: column;
+    }
+}
+@media (max-width: 700px) {
+    .windSection p,.humiditySection p{
+        font-size:20px;
+        margin: 10px;
+    }
+    .windSection,.humiditySection{
+        flex-direction: column;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    height: auto;
+}
+.section1{
+    display: flex;
+}
+
+
+.creater{
+    width: 40%;
+    border: 1px;
+    border-color: #53a18d;
+    border-style: double;
+    /* background: linear-gradient(135deg, #00feba, #5b548a); */
+    color: #fff;
+    margin: 100px;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+}
+.credit{
+    margin-top: 30px;
+}
+.card{
+    width: 40%;
+    max-width: 700px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+
+.search button{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 60%;
+}
+
+
+.humiditySection img,.windSection img{
+    width: 100px;
+}
+
+.search img{
+    width: 80%;
+}
+.whether-icon{
+    width: 100px;
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+}
+
+.humiditySection,.windSection{
+    display: flex;
+}
+
+.windSection p,.humiditySection p{
+    font-size:20px;
+    margin: 10px;
+}
